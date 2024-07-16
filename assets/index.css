@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.parent-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.child-div {
+  border: 1px solid black;
+}
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
